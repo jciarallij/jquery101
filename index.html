@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,7 +50,7 @@
 				} else if(theTrick == 'animate'){
 					thing.animate({height: "100px"}, 500);
 				} else if(theTrick == 'delay'){
-					thing.delay( 5000 );
+					thing.slideUp( 2000 ).delay( 3000 ).fadeIn( 2000 );
 				} else if(theTrick == 'slice'){
 					$("li").slice( 2 ).css( "background-color", "green" );
 				} else if(theTrick == 'fade'){
